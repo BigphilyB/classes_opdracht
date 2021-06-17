@@ -4,10 +4,10 @@ class Cars {
  private $cost;
  public $type;
 
- public function __construct($brand, $type) {
-   $this->brand =  $brand;
-   $this->type = $type;
-   $this->cost = $cost;
+ public function __construct($Brand, $Type, $Cost) {
+   $this->brand =  $Brand;
+   $this->type = $Type;
+   $this->cost = $Cost;
  }
  public function intro() {
    echo "The brand is {$this->brand} and the type is {$this->type}. and it costs {$this->cost} €";
