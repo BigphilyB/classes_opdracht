@@ -17,7 +17,7 @@ $h = 10
         protected $R;
         protected $H;
 
-     function __construct( $R, $H) {      
+    public function __construct( $R, $H) {      
         $this->r =  $R;
         $this->h =  $H;
         $this->oppervlakteCirkels = 2 * pi() * $R * $R;

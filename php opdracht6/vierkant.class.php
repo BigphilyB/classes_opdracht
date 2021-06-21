@@ -4,7 +4,7 @@
         protected $x;
 
 
-     function __construct($X) {
+    public function __construct($X) {
             $this->x =  $X;
             $this->oppervlakteVierkant = $X * $X;
     }
